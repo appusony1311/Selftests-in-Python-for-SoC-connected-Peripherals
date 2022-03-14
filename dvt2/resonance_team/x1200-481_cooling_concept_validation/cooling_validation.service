@@ -1,0 +1,10 @@
+[Unit]
+Description = Cooling Concept Validation (X1200-481)
+
+[Service]
+Type=simple
+ExecStart=/usr/etc/x1200-481_cooling_concept_validation.sh
+RemainAfterExit=true
+
+[Install]
+WantedBy=multi-user.target
